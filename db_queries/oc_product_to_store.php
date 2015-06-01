@@ -1,0 +1,1 @@
+SELECT `productid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `product_id`, <?= $GLOBALS['I2O']['store_id'] ?> AS `store_id` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_products` AS `isc_products`

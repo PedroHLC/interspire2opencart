@@ -1,0 +1,1 @@
+SELECT `variationid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `option_id`, <?= $GLOBALS['I2O']['language_id'] ?> AS `language_id`, `vname` AS `name` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_product_variations` AS `isc_product_variations`

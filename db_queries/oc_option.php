@@ -1,0 +1,1 @@
+SELECT `variationid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `option_id`, 'select' AS `type`, 0 AS `sort_order` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_product_variations` AS `isc_product_variations`

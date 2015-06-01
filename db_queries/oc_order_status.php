@@ -1,0 +1,1 @@
+SELECT `statusid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `order_status_id`, <?= $GLOBALS['I2O']['language_id'] ?> AS `language_id`, CONCAT( '<?= $GLOBALS['I2O']['status_prefix'] ?>', `statusdesc` ) AS `name` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_order_status` AS `isc_order_status`

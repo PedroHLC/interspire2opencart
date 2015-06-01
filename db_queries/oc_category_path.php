@@ -1,0 +1,1 @@
+SELECT `categoryid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `category_id`, `categoryid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `path_id`, 0 AS `level` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_categories` AS `isc_categories`

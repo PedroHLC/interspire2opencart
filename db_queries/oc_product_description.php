@@ -1,0 +1,1 @@
+SELECT `productid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `product_id`, <?= $GLOBALS['I2O']['language_id'] ?> AS `language_id`, `prodname` AS `name`, `proddesc` AS ` description`, NULL AS `tag`, NULL AS `meta_title`, `prodmetadesc` AS `meta_description`, `prodmetakeywords` AS `meta_keyword` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_products` AS `isc_products`

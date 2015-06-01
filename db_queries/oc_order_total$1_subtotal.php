@@ -1,0 +1,1 @@
+SELECT ( ( `orderid` - 1 ) * 4 ) + <?= $GLOBALS['I2O']['id_offset']+1 ?> AS `order_total_id`, `orderid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `order_id`, 'sub_total' AS `code`, 'Sub-total' AS `title`, `ordsubtotal` AS `value`, 1 AS `sort_order` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_orders` AS `isc_orders`
