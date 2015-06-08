@@ -16,6 +16,7 @@
 		'instock_categ_id' => 5,
 		'outstock_categ_id' => 7,
 		'instock_status_tag' => 'EM ESTOQUE',
+		'product_link_part' => 'produto',
 
 		'output_db' => 'novoopencart_migrado',
 		'input_db' => 'velhointerspire',
