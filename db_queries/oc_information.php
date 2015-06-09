@@ -1,0 +1,1 @@
+SELECT `pageid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `information_id`, `pagestatus` AS `bottom`, `pagensetright` AS `sort_order`, `pagestatus` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_pages` AS `isc_pages` WHERE `pagetype` = 0

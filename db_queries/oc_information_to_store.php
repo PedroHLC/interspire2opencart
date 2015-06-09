@@ -1,0 +1,1 @@
+SELECT `pageid` + <?= $GLOBALS['I2O']['id_offset'] ?> AS `information_id`, <?= $GLOBALS['I2O']['store_id'] ?> AS `store_id` FROM `<?= $GLOBALS['I2O']['input_db'] ?>`.`isc_pages` AS `isc_pages` WHERE `pagetype` = 0
